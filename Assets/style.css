@@ -1,0 +1,58 @@
+.Title
+{
+ justify-self: start;
+ 
+}
+body
+{
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+
+}
+#bmwback
+{
+    width: 100vw;
+    height: 100vh;
+    object-fit:cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.flexcontainer 
+{
+    gap:25px 25px;
+    flex-direction: row;
+    flex-basis: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flexcontainer img
+{
+    max-width: 24%;
+    flex-shrink: 1;
+}
+  
+ /*  Responsive layout - makes a two column-layout instead of four columns  */
+  @media screen and (max-width: 1500px) 
+  {
+    .flexcontainer img{
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other  */
+  @media screen and (max-width: 600px) 
+  {
+    .flexcontainer img {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }  
