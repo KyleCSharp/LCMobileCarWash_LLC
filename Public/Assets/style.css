@@ -38,6 +38,7 @@ text-align:center;
     max-width: 24%;
     flex-shrink: 1;
 }
+
   
  /*  Responsive layout - makes a two column-layout instead of four columns  */
   @media screen and (max-width: 1500px) 
