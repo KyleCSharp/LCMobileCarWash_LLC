@@ -48,7 +48,7 @@ text-align:center;
     }
   }
   
-   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other  */
+   /* Responsive layout - makes the two columns stack on top of each other instead of next to each others  */
   @media screen and (max-width: 600px) 
   {
     .flexcontainer img {
