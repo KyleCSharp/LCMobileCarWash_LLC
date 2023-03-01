@@ -33,14 +33,21 @@ text-align:center;
     padding-top: 10px;
     padding-bottom: 10px;
 }
+#hand1
+{
+ position: relative;
+ max-width: 100px;
+ max-height: 100px;
+}
+
 .flexcontainer img
 {
-    max-width: 24%;
+    max-width: 23.9%;
     flex-shrink: 1;
 }
 
   
- /*  Responsive layout - makes a two column-layout instead of four columns  */
+  /* Responsive layout - makes a two column-layout instead of four columns  */
   @media screen and (max-width: 1500px) 
   {
     .flexcontainer img{
