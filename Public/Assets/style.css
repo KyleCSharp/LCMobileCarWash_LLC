@@ -35,6 +35,7 @@ text-align:center;
 }
 #hand1
 {
+
  position: relative;
  max-width: 100px;
  max-height: 100px;
@@ -64,3 +65,26 @@ text-align:center;
       max-width: 100%;
     }
   }  
+  a:link {
+    color: rgb(255, 153, 0);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
