@@ -67,6 +67,15 @@ text-align:center;
       max-width: 100%;
     }
   }  
+  @media screen and (max-width: 600px)
+  {
+    #bmwback
+    {
+      background-color: black;
+      object-fit: scale-down;
+    }
+    
+  }
   a:link {
     color: rgb(255, 153, 0);
     background-color: transparent;
