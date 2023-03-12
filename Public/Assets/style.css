@@ -1,6 +1,6 @@
 .Title
 {
- justify-self: start;
+  justify-self: start;
  
 }
 body
@@ -24,7 +24,7 @@ text-align:center;
 }
 .flexcontainer 
 {
-    gap:25px 25px;
+  gap:25px 25px;
     flex-direction: row;
     flex-basis: 24%;
     display: flex;
@@ -32,6 +32,8 @@ text-align:center;
     padding: 0 4px;
     padding-top: 10px;
     padding-bottom: 10px;
+    justify-content: center;
+    
 }
 #hand1
 {
@@ -43,8 +45,8 @@ text-align:center;
 
 .flexcontainer img
 {
-    max-width: 23.9%;
-    flex-shrink: 1;
+  max-width: 23.9%;
+  flex-shrink: 1;
 }
 
   
