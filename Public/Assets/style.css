@@ -49,6 +49,10 @@ margin-right: 50PX;
   max-width: 23.9%;
   flex-shrink: 1;
 }
+.before2019
+{
+left: auto;
+}
 
   
   /* Responsive layout - makes a two column-layout instead of four columns  */
